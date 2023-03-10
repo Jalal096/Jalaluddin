@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Prism&display=swap');
+
+:root {
+    --text-color-temp : rgb(34, 34, 43);
+    --bg-color : #eeeeee;
+    --main-color: #224fb1;
+    --para-text: #6d6d6d;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+header {
+    position: fixed;
+    padding: 0 100px;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+}
+
+.nav ul {
+    display: flex;
+    padding-top: 15px;
+    margin-right: 200px;
+}
+
+.logo {
+    color: var(--main-color);
+}
+
+.logo span {
+    font-family: 'Tilt Prism', cursive;
+    font-size: 32px;
+}
+
+.nav ul a {
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav ul a:hover {
+    color: var(--main-color);
+}
