@@ -149,6 +149,13 @@ section.work, section.detail-works-section {
     text-decoration: none;
 }
 
+@media (max-width:1024px) {
+    .myname {
+        margin-top: 40px;
+        font-size: 28px;
+    }
+}
+
 @media (max-width: 425px) {
     header {
         padding: 0 10px;
