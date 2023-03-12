@@ -224,7 +224,7 @@ button:hover {
         width: 100%;
     }
     .getintouch h1 {
-        padding-top: 10px;
+        padding-top: 30px;
         text-align: center;
     }
     .list ul {
@@ -233,14 +233,39 @@ button:hover {
         width: 100%;
     }
     .follow-me {
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
     .right {
         margin: auto;
         width: 100%;
     }
+    .right h1 {
+        text-align: center;
+    }
+    *input {
+        margin: auto;
+    }
+    .name-input, .mail-phone, .message {
+        margin: 0;
+        text-align: center;
+    }
+    .name-input input, .mail-phone input, .message textarea {
+        margin-right: 10px;
+    }
     button {
         margin-left: 37px;
         width: 75%;
+    }
+}
+
+@media (max-width:320px) {
+    .getintouch h1 {
+        font-size: 28px;
+    }
+    .getintouch p {
+        font-size: 16px;
+    }
+    .list ul li p {
+        font-size: 14px;
     }
 }
