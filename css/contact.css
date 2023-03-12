@@ -82,12 +82,8 @@ header {
     font-size: 18px;
 }
 
-.list {
-    margin: 25px;
-}
-
 .list ul {
-    margin: 30px;
+    margin: 20px;
     padding: 10px;
 }
 
@@ -200,4 +196,51 @@ button {
 
 button:hover {
     background-color: #5b53a8;
+}
+
+@media (max-width:1024px) {
+    .left {
+        width: 50%;
+    }
+    .name-input input, .mail-phone input {
+        width: 80%;
+    }
+    button {
+        width: 75%;
+    }
+}
+
+@media (max-width:425px) {
+    header {
+        padding: 0 10px;
+    }
+    .nav ul {
+        display: none;
+    }
+    .container {
+        display: block;
+    }
+    .left {
+        width: 100%;
+    }
+    .getintouch h1 {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .list ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .follow-me {
+        padding-bottom: 10px;
+    }
+    .right {
+        margin: auto;
+        width: 100%;
+    }
+    button {
+        margin-left: 37px;
+        width: 75%;
+    }
 }
